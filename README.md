@@ -26,3 +26,11 @@ The cache access process involves the following steps:
 3. Tag Comparison: The tag associated with the memory address is compared with the tags stored in the cache lines within the selected set to check for a cache hit. 
 4. Data Retrieval: If a cache hit occurs, the required data is retrieved from the cache. Otherwise, a cache miss occurs, and the data must be fetched from main memory and stored in the cache for future access. 
 5. LRU Updation: After Reading a way, a pointer stores the least recently used way, this is useful in implementing a LRU cache replacement policy. Two-set associative caches offer a balance between the simplicity of direct-mapped caches and the flexibility of fully associative caches, providing improved performance for certain memory access patterns. 
+
+## Results
+Upon simulation and testing of our Verilog implementation, we obtained the following 
+![compile](https://github.com/Sourabh-Mallapur/2-Way-Set-Associative-Cache/assets/106715050/f5faee6d-0277-4a76-bbdd-e487e15809c0)
+
+Simulation Waveform	
+![sim](https://github.com/Sourabh-Mallapur/2-Way-Set-Associative-Cache/assets/106715050/06b5ac0b-fa56-4ecf-9d18-f95775627cb5)
+
