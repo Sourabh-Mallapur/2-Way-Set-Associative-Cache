@@ -29,8 +29,10 @@ The cache access process involves the following steps:
 
 ## Results
 Upon simulation and testing of our Verilog implementation, we obtained the following 
+
 ![compile](https://github.com/Sourabh-Mallapur/2-Way-Set-Associative-Cache/assets/106715050/f5faee6d-0277-4a76-bbdd-e487e15809c0)
 
 Simulation Waveform	
+
 ![sim](https://github.com/Sourabh-Mallapur/2-Way-Set-Associative-Cache/assets/106715050/06b5ac0b-fa56-4ecf-9d18-f95775627cb5)
 
